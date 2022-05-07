@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+
+    <script src="jquery-3.6.0.js"></script>
+    <script src="jquery.csv.js"></script>
+    <script src="table2csv.min.js"></script>
+
+    <title>Database Project - COMP 3380</title>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+
+    <!-- fontawesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+</head>
+<body>
+
+    <h1 style="text-align: center" class="Project-title">COMP 3380: FIFA World Cup Database Project <i class="fas fa-futbol"></i></h1>
+    <h3 style="text-align: center" class="Group-title">Group Number: 23 | Members: Arshpreet Buttar, Roba Geleta, Brian Lim</h3>
+    <button id="STB" class="STBB"><i class="fas fa-chevron-down"></i></button>
+    <h4 id="QuerySelectedTitle" ></h4>
+    <div id="Display" class="record-Background">
+<!--        background image source: https://www.pixiv.net/en/artworks/37580500-->
+        <div id="display2"></div>
+        <table id="dataTableList" class="QueryTableBackground"></table>
+    </div>
+
+    <table>
+        <tr>
+            <th>
+                <h3 style="text-align: center;" class="OutputHead">Select any of the below buttons to see the corresponding query tables:</h3>
+            </th>
+            <th>
+                <h3 style="text-align: center;" class="OutputHead">Select any of the below button to view the corresponding database tables:</h3>
+            </th>
+            <th>
+                <h3 style="text-align: center;" class="OutputHead">Export currently shown table to CSV file:</h3>
+            </th>
+        </tr>
+        <tr>
+            <td>
+                <button class="queryButtons" id="Query1"></button>
+                <button class="queryButtons" id="Query2"></button>
+                <button class="queryButtons" id="Query3"></button>
+                <button class="queryButtons" id="Query4"></button>
+                <button class="queryButtons" id="Query5"></button>
+                <button class="queryButtons" id="Query6"></button>
+                <button class="queryButtons" id="Query7"></button>
+                <button class="queryButtons" id="Query8"></button>
+                <button class="queryButtons" id="Query9"></button>
+                <button class="queryButtons" id="Query10"></button>
+                <button class="queryButtons" id="Query11"></button>
+                <button class="queryButtons" id="Query12"></button>
+                <button class="queryButtons" id="Query13"></button>
+                <button class="queryButtons" id="Query14"></button>
+                <button class="queryButtons" id="Query15"></button>
+                <button class="queryButtons" id="Query16"></button>
+            </td>
+            <td>
+                <button class="queryButtons2" id="Query17"></button>
+                <button class="queryButtons2" id="Query18"></button>
+                <button class="queryButtons2" id="Query19"></button>
+                <button class="queryButtons2" id="Query20"></button>
+                <button class="queryButtons2" id="Query21"></button>
+                <button class="queryButtons2" id="Query22"></button>
+                <button class="queryButtons2" id="Query23"></button>
+                <button class="queryButtons2" id="Query24"></button>
+                <button class="queryButtons2" id="Query25"></button>
+                <button class="queryButtons2" id="Query26"></button>
+            </td>
+            <td>
+                <button id="csvdownloadbutton" type="button" class="csv-export-button"><i class="csv-icon fas fa-file-csv"></i> <br>Click to export</button>
+            </td>
+        </tr>
+    </table>
+    <!-- HTML here -->
+    <script src="index.js" type="module"></script>
+
+</body>
+</html>

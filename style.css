@@ -1,0 +1,119 @@
+body {
+    background: rgb(76,75,85);
+    background: radial-gradient(circle, rgba(76,75,85,1) 0%, rgba(97,97,97,1) 25%, rgba(131,131,131,1) 58%, rgba(64,85,89,1) 100%);
+}
+
+.record-Background{
+    border: 2px solid black;
+    width: auto;
+    height: 600px;
+    overflow: hidden;
+    overflow-y: auto;
+    overflow-x: auto;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    background-image: url("37580500_p0_master1200.jpg");      /*background image source: https://www.pixiv.net/en/artworks/37580500*/
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+table, th, td{
+    border-collapse: collapse;
+}
+
+table{
+    background-color: #dadada5e;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+th, td {
+    border:1px solid black;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 1.2vmax;
+}
+
+.Qtd
+{
+    background-color: rgba(250, 235, 215, 0.58);
+}
+
+th{
+    background-color: #dadada9a;
+    text-align: center;
+}
+
+
+.csv-export-button{
+    display: inline-block;
+    float: right;
+    margin-right: 30px;
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.csv-export-button:hover{
+    background-color: rgba(255,255,255,0.12);
+}
+
+.csv-export-button:active{
+    background-color: rgba(255,255,255,0.3);
+}
+
+.csv-icon{
+    font-size: 50px;
+}
+
+.queryButtons{
+    font-size: large;
+    border-radius: 10px;
+    float: left;
+    display: block;
+    margin: 10px;
+    color: sandybrown;
+    background-color: rgb(76,75,85);
+}
+
+.queryButtons2{
+    font-size: large;
+    border-radius: 10px;
+    display: block;
+    float: left;
+    margin: 10px;
+    color: sandybrown;
+    background-color: rgb(76,75,85);
+}
+
+.Project-title{
+    font-size: 2vmax;
+    margin: auto;
+}
+
+.OutputHead{
+    font-size: 1.3vmax;
+}
+
+.QTitle{
+    color: white;
+    font-size: 1vmax;
+    text-shadow: 3px 2px rgba(7, 0, 0, 0.86);
+    text-align: center;
+}
+
+.STBB{
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 20px;
+    border-radius: 50%;
+}
+
+.tableInfo{
+    text-align: center;
+    text-shadow: 1px 1px #f5f5f5
+}
